@@ -8,7 +8,7 @@ var uglify = require("gulp-uglify");
 var imagemin = require("gulp-imagemin");
 var cssmin = require("gulp-uglifycss");
 var htmlPath = require("gulp-rewrite-image-path");
-
+var htmlImgPath = require("gulp-rewrite-image-path");
 
 var src = "src";
 var dist = "dist";
