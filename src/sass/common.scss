@@ -24,6 +24,9 @@ img, video{
 	max-width:100%;
 	border:none;
 }
+input{
+vertical-align:middle;
+}
 fieldset{border:none;}
 a{text-decoration:none;color:#333;}
 a:hover,a:focus{
@@ -32,14 +35,14 @@ a:hover,a:focus{
 html{font-size:14px;}
 body,input[type=text],input[type=tel],inpuit[type=url],inpuit[type=search],inpuit[type=password],select,textarea
 {
-	font:1em/1.3 Malgun Gothic, "맑은고딕" , gulim,"굴림" , dotum, "돋음", sans-serif; color:#333;
+	font:1em/1.3 arial, Malgun Gothic, "맑은고딕" , gulim,"굴림" , dotum, "돋음", sans-serif; color:#333;
 }
 h1,h2,h3,h4,h5,h6,strong,em,address{
 	font-size:100%;
 	font-weight:normal;
 	font-style:normal;
 }
-.blind{position:absolute;left:-9999px;}
+.blind, legend{position:absolute;left:-9999px;}
 .clearFix:after{
 	content:"";
 	display:block;
@@ -145,6 +148,15 @@ h1,h2,h3,h4,h5,h6,strong,em,address{
 			}
 		}
 	}
+}
+
+/*타이틀 서식*/
+.tit_1{
+	font-size:18px;
+	color:#203e77;
+	font-weight:bold;
+	margin-bottom:15px;
+	padding-left:10px;
 }
 
 .grid{
