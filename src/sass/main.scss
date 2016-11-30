@@ -5,7 +5,10 @@
 		border-top:1px solid #999;
 		border-bottom:1px solid #999;
 		padding:8px 10px;
-		color:#000;
+		a{
+			color:#000;
+			font-weight:bold;
+		}
 		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#fdfdfc+1,f1f2f4+100 */
 		background: #fdfdfc; /* Old browsers */
 		background: -moz-linear-gradient(top,  #fdfdfc 1%, #f1f2f4 100%); /* FF3.6-15 */
